@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
 
-## Project info
+# Vikram Aditya - Personal Website
 
-**URL**: https://lovable.dev/projects/f13c2a55-e8f5-435d-bf5f-dc33cacdb232
+A beautiful, modern "Coming Soon" landing page for Vikram Aditya's personal website.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Modern Design**: Clean, minimalist layout with elegant typography
+- **Responsive**: Fully responsive design that works on all devices
+- **Animated**: Smooth animations and micro-interactions
+- **Glassmorphism**: Modern glass-like design elements
+- **Interactive**: Hover effects and parallax mouse movements
+- **Optimized**: Fast loading and optimized for performance
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f13c2a55-e8f5-435d-bf5f-dc33cacdb232) and start prompting.
+- HTML5
+- CSS3 (with modern features like backdrop-filter, CSS Grid, Flexbox)
+- Vanilla JavaScript
+- Google Fonts (Inter & Playfair Display)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Setup for GitHub Pages
 
-**Use your preferred IDE**
+1. Create a new repository named `adityaofficial`
+2. Upload all files to the repository
+3. Go to repository Settings > Pages
+4. Select "Deploy from a branch" as source
+5. Choose "main" branch and "/" (root) folder
+6. Your site will be available at: `https://yourusername.github.io/adityaofficial/`
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Customization
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Colors
+The color scheme can be modified in the CSS file by changing the gradient values and color variables.
 
-Follow these steps:
+### Social Links
+Update the social media links in the HTML file by replacing the `#` placeholders with actual URLs.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Content
+- Modify the name in the HTML file
+- Update the description text
+- Change the logo initials in the logo circle
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Fonts
+The site uses Google Fonts (Inter and Playfair Display). You can change these in the HTML head section and update the CSS accordingly.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## File Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+/
+├── index.html          # Main HTML file
+├── styles.css          # Stylesheet with all animations and responsive design
+├── script.js           # JavaScript for interactions and animations
+└── README.md           # This file
 ```
 
-**Edit a file directly in GitHub**
+## Browser Support
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-**Use GitHub Codespaces**
+## Performance
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The website is optimized for fast loading with:
+- Minified CSS and JavaScript
+- Optimized animations using CSS transforms
+- Efficient use of backdrop-filter and modern CSS features
+- Responsive images and scalable vector graphics
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f13c2a55-e8f5-435d-bf5f-dc33cacdb232) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the [MIT License](LICENSE).
