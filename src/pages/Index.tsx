@@ -33,8 +33,8 @@ const Index = () => {
           </h1>
           <p className="text-xl text-gray-600 mb-2">A guide to wealth and happiness</p>
           <p className="text-lg text-gray-500 mb-8">
-            The Almanack of Vikram Aditya by Eric Jorgenson<br />
-            One Million Copies sold published by Scribe Media
+            The Almanack of Vikram Aditya<br />
+        
           </p>
         </section>
 
