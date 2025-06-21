@@ -3,6 +3,7 @@
 import React from 'react';
 import { ExternalLink, Download, BookOpen, Headphones, Mail } from 'lucide-react';
 
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-white text-gray-900">
